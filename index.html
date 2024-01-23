@@ -27,22 +27,100 @@
 </head>
 
 <body>
+    <!-- Page - 01 -->
+    <header class="w-[82%] mx-auto mt-16 font">
+        <div class="flex lg:justify-normal sm:justify-between">
+            <div class="flex gap-4 items-center">
+                <div class="dropdown lg:hidden sm:flex">
+                    <div tabindex="0" role="button" class="btn m-1"><img src="svg/hambarger.svg" alt=""></div>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-[#FF4240] pb-2">Home</li>
+                        <li class="pb-2">About</li>
+                        <li class="pb-2">Pages</li>
+                        <li class="pb-2">Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
 
-    <header>
+                
+                <h4 class="lg:text-4xl sm:text-3xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</h4>
+            </div>
+
+            <div class="lg:flex mx-auto sm:hidden items-center">
+                <ul class="flex gap-8 text-[16px] text-[#424247] ">
+                    <li class="text-[#FF4240]">Home</li>
+                    <li>About</li>
+                    <li>Pages</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="flex gap-6 items-center">
+                <img class="lg:flex sm:hidden" src="svg/search.svg" alt="">
+                <button class="btn no-animation text-[#FFF] text-xl font-bold bg-[#FF4240]">Get Ticket</button>
+            </div>
+        </div>
+
+        <div class="carousel w-full mt-12">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="bg-black btn btn-circle"><img src="svg/left.svg" alt=""></a>
+                    <a href="#slide2" class="bg-black btn btn-circle"><img src="svg/right.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="bg-black btn btn-circle"><img src="svg/left.svg" alt=""></a>
+                    <a href="#slide3" class="bg-black btn btn-circle"><img src="svg/right.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="bg-black btn btn-circle"><img src="svg/left.svg" alt=""></a>
+                    <a href="#slide4" class="bg-black btn btn-circle"><img src="svg/right.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="bg-black btn btn-circle"><img src="svg/left.svg" alt=""></a>
+                    <a href="#slide1" class="bg-black btn btn-circle"><img src="svg/right.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-[#131318] w-[527px] rounded-2xl p-8 relative lg:-top-52 lg:left-[690px] sm:top-4 sm:left-0">
+            <h4 class="text-[#FFF] mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h4>
+            <p class="text-[#FFFFFF99] font-medium text-[16px]">Explore our website's footer to meet the remarkable heroes shaping diverse fields, inspiring innovation.</p>
+        </div>
+
+
 
     </header>
-    <main>
+
+
+    <main class="font mb-24">
+        <div>
+
+        </div>
 
     </main>
-    <footer class="lg:px-32 sm:px-20 font flex flex-wrap gap-20 sm:text-center lg:text-start lg:justify-start sm:justify-center p-10 bg-[#131318] text-[#FFFFFF99] ">
+
+
+    <footer
+        class="lg:px-32 sm:px-20 font flex flex-wrap gap-20 sm:text-center lg:text-start lg:justify-between sm:justify-center p-10 bg-[#131318] text-[#FFFFFF99] ">
         <div class="lg:w-[30%] sm:w-full">
             <header class="text-3xl font-extrabold text-[#FFF]">Get In Touch</header>
             <p class="py-4">Connect with us effortlessly! Explore our website's footer for quick access and seamless
                 communication.</p>
-            <p class="link link-hover flex gap-4 py-1 lg:justify-start sm:justify-center"><img src="svg/mail-box.svg">hockeys@support.com</p>
-            <p class="link link-hover flex gap-4 py-1 lg:justify-start sm:justify-center"><img src="svg/telephone.svg">(+62) 123-321-543</p>
+            <p class="link link-hover flex gap-4 py-1 lg:justify-start sm:justify-center"><img
+                    src="svg/mail-box.svg">hockeys@support.com</p>
+            <p class="link link-hover flex gap-4 py-1 lg:justify-start sm:justify-center"><img
+                    src="svg/telephone.svg">(+62) 123-321-543</p>
         </div>
-        <div class="flex flex-wrap lg:justify-between sm:justify-center lg:gap-52 sm:gap-20">
         <div>
             <header class="text-xl font-bold text-[#FFF] pb-4">Company</header>
             <p class="py-1 link link-hover">About us</p>
@@ -65,7 +143,6 @@
             <p class="py-1  link link-hover">Private Lesson</p>
             <p class="py-1  link link-hover">Hockeys for kids</p>
             <p class="py-1  link link-hover">Hockeys for Adult</p>
-        </div>
         </div>
     </footer>
 
