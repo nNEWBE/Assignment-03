@@ -62,6 +62,7 @@
                         <li class="p-1 shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240] text-white rounded-lg mt-2 "><a href="#About" class="justify-center text-xl">About</a> </li>
                         <li class="p-1 shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240] text-white rounded-lg mt-2 "><a href="#Pages" class="justify-center text-xl">Pages</a> </li>
                         <li class="p-1 shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240] text-white rounded-lg mt-2 "><a href="#Blog" class="justify-center text-xl">Blog</a> </li>
+                        <li class="p-1 shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240] t◘ext-white rounded-lg mt-2 "><a href="#Query" class="justify-center text-xl">Query</a> </li>
                         <li class="p-1 shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240] text-white rounded-lg mt-2 "><a href="#Contact" class="justify-center text-xl">Contact</a> </li>
                     </ul>
                 </div>
@@ -72,16 +73,17 @@
 
             <div class="lg:flex mx-auto hidden items-center">
                 <ul class="flex gap-8 text-[16px] text-[#424247] ">
-                    <li class="text-[#FF4240]">Home</li>
-                    <li>About</li>
-                    <li>Pages</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li class="text-[#FF4240]"><a href="#Home" class="justify-center text-lg">Home</a></li>
+                    <li><a href="#About" class="justify-center text-lg">About</a></li>
+                    <li><a href="#Pages" class="justify-center text-lg">Pages</a></li>
+                    <li><a href="#Blog" class="justify-center text-lg">Blog</a></li>
+                    <li><a href="#Query" class="justify-center text-lg"◘>Query</a></li>
+                    <li><a href="#Contact" class="justify-center text-lg">Contact</a></li>
                 </ul>
             </div>
             <div class="flex gap-6 items-center">
                 <img class="lg:flex hidden" src="svg/search.svg" alt="">
-                <button class="px-3 py-2 rounded-lg text-[#FFF] text-xl shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240]">Get Ticket</button>
+                <button class="px-3 py-2 rounded-lg text-[#FFF] text-xl shadow-[-1px_5px_4px_-5px] shadow-black font-bold bg-[#FF4240]"><a href="#Ticket">Get Ticket</a> </button>
             </div>
         </div>
 
@@ -186,7 +188,7 @@
 
         <!-- Page - 03 -->
 
-        <section class="w-[82%] mx-auto mb-24" id="Pages">
+        <section class="w-[82%] mx-auto mb-24" id="Blog">
 
             <div class="text-center">
                 <h3 class="per text-2xl mb-4">Program Sections</h3>
@@ -222,7 +224,7 @@
 
             <div class="flex h-[453px] mt-10">
 
-                <div class="bg-[url('Images/4.png')] bg-no-repeat bg-center w-[92%] lg:px-20 px-10 lg:pt-56 pt-36 h-full rounded-3xl shadow-[0px_0px_10px_-2px] shadow-black">
+                <div class="bg-[url('Images/4.png')] bg-no-repeat lg:bg-cover bg-center lg:w-[93.5%] mx-auto  px-10 lg:pt-48 pt-44 h-[95%] rounded-3xl shadow-[0px_0px_10px_-2px] shadow-black">
                     <div>
                         <h3 class="text-[#FFFFFF] per text-3xl mb-4">Junior Program</h3>
                         <p class="des mb-5 text-[#FFFFFF] lg:w-[35%] w-3/4">Fueling passion in young talents, our Junior
@@ -240,7 +242,7 @@
 
         <!-- Page - 04 -->
 
-        <section class="w-[82%] mx-auto mb-24" id="Blog">
+        <section class="w-[82%] mx-auto mb-24" id="Pages">
 
             <div class="flex lg:flex-row flex-col gap-6 my-6">
                 <div class="c lg:w-[48%] w-full flex lg:flex-row flex-col items-center ">
@@ -487,7 +489,7 @@
 
         <!-- Page 05 -->
 
-        <section class="w-[82%] mx-auto mb-24" id="Contact">
+        <section class="w-[82%] mx-auto mb-24" id="Query">
 
             <div class="text-center mb-20">
                 <h3 class="per text-2xl mb-4">Clients Question</h3>
@@ -568,7 +570,7 @@
 
         <!-- Page 06 -->
 
-        <section class="w-[82%] mx-auto mb-24">
+        <section class="w-[82%] mx-auto mb-24" id="Ticket">
 
             <div class="text-center">
                 <h4 class="per text-2xl mb-4">Get In Touch</h4>
@@ -655,7 +657,7 @@
     <!-- Page 07 -->
 
     <footer
-        class="lg:px-32 flex flex-wrap gap-20 text-center lg:text-start lg:justify-between justify-center p-10 bg-[#131318] text-[#FFFFFF99] py-20 ">
+        class="lg:px-32 flex flex-wrap gap-20 text-center lg:text-start lg:justify-between justify-center p-10 bg-[#131318] text-[#FFFFFF99] py-20 " id="Contact">
         <div class="lg:w-[30%] w-full">
             <header class="text-2xl font-extrabold text-[#FFF]">Get In Touch</header>
             <p class="py-4">Connect with us effortlessly! Explore our website's footer for quick access and seamless
